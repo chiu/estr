@@ -1,6 +1,20 @@
 Rails.application.routes.draw do
+  # get 'sessions/new'
+
+  # get 'sessions/create'
+
+  # get 'sessions/and'
+
+  # get 'sessions/make'
+
+  # get 'sessions/our'
+
+  # get 'sessions/SessionsController'
+
   resources :appointments
   resources :patients
+  resources :sessions, only: [:new, :create]
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
