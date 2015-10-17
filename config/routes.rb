@@ -1,15 +1,15 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
+  # get 'sessions/new'
 
-  get 'sessions/create'
+  # get 'sessions/create'
 
-  get 'sessions/and'
+  # get 'sessions/and'
 
-  get 'sessions/make'
+  # get 'sessions/make'
 
-  get 'sessions/our'
+  # get 'sessions/our'
 
-  get 'sessions/SessionsController'
+  # get 'sessions/SessionsController'
 
   resources :appointments
   resources :patients
