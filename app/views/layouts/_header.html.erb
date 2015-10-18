@@ -1,0 +1,7 @@
+<small id="session-links">
+  <% if current_user %>
+  Signed in as:  (<%= link_to "Log out", session_path, method: :delete %>)
+  <% else %>
+  <%= link_to "Log In", new_session_path %> | <%= link_to "Sign your clinic up", new_clinic_path %>
+  <% end %>
+</small>
