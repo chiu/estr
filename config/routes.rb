@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'clinics/new'
+
   # get 'sessions/new'
 
   # get 'sessions/create'
