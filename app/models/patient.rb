@@ -1,4 +1,4 @@
-class Patient < ActiveRecord::Base
+class Patient < User
   has_many :appointments
 
   validates :first_name, :last_name, :user_id, presence: true

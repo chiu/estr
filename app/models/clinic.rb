@@ -1,2 +1,2 @@
-class Clinic < ActiveRecord::Base
+class Clinic < User
 end
