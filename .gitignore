@@ -6,7 +6,7 @@
 
 
 # my addition ignore yaml files
-/config/*.yml
+#/config/*.yml
 
 # Ignore bundler config.
 /.bundle
@@ -19,3 +19,4 @@
 /log/*
 !/log/.keep
 /tmp
+database.yml
